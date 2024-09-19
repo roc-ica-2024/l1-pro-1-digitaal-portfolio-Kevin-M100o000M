@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Fire';
+    src: url(../fonts/FireAceFreeTrial-p7D6d.ttf);
+}
+body{
+    margin: 0px;
+}
+main{
+ margin: 0px; 
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-image: linear-gradient(rgba(255, 196, 0, 0.203),rgb(26, 189, 167, 0.521));   
+    margin: 0px;
+    padding: 10px;
+    overflow: hidden;
+}
+.navbar a{
+    text-decoration: none;
+    /* color: rgba(216, 77, 26, 0.74); */
+    color: rgba(216, 77, 26, 0.74);
+    font-size: larger;
+    font-family: 'Fire';
+    display: block;
+    padding: 10px;
+
+}
+.navbar a:hover{
+    background-color: rgba(26, 189, 167, 0.277);
+}
+.navbar li{
+    float: left;
+}
+rect{
+    width: 100px; 
+    height: 100px;
+    
+}
