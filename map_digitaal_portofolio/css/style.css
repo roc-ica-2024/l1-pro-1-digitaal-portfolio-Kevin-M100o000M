@@ -5,9 +5,11 @@
 body{
     margin: 0px;
 }
+header{
+    text-align: center;
+}
 main{
  margin: 0px; 
-
 }
 
 .navbar ul{
@@ -33,8 +35,15 @@ main{
 .navbar li{
     float: left;
 }
-rect{
-    width: 100px; 
-    height: 100px;
-    
+.navbar div{
+    text-align: center;
+}
+.dot{
+    width: 75px;
+    height: 75px;
+    align-self: center;
+    justify-content:  flex-end;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
 }
