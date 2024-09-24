@@ -52,7 +52,31 @@ main{
     border-radius: 50%;
     box-shadow: 5px 10px;
 }
+.box{
+    background-color: black;
+    position: absolute 10px 20px;
+    box-shadow: 20px 20px 3px blue;
+}
+.boxx{
+    background-color: black;
+    position: absolute 10px 20px;
+    box-shadow: 10px 20px blue;
+}
+img{
+    border: solid 10px;
+    margin-left: 20px;
+    border-color: rgb(12, 130, 247);
+    border-radius: 10px;
+    border-width: 25px;
+    box-shadow: 10px black;
+}
+.lorem{
+    /* margin-left: 1000px; */
+}
 
+
+
+/* flex*/
 .container{
     display: flex;   
     flex-direction: row;  

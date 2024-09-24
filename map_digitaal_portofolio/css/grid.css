@@ -1,0 +1,26 @@
+.item{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(193, 17, 17);
+    border: solid 5px red;
+    border-radius: 10px;
+    padding: 0.5em;
+    float: left;
+
+}
+.container{
+    border: solid 5px black;
+    display: grid;
+    grid-template-rows: 100px 100px 100px  100px 
+ 100px 100px;
+    grid-template-columns: 100px 100px 100px  100px 
+    100px 100px ;
+}
+.item-1{
+    grow-row-start: 1;
+    grow-row-start: 1;
+    grow-row-start: 1;
+    grow-row-start: 1;
+    
+}
