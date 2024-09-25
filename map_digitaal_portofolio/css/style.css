@@ -2,24 +2,30 @@
     font-family: 'Fire';
     src: url(../fonts/FireAceFreeTrial-p7D6d.ttf);
 }
-body{
+
+body {
     margin: 0px;
-}
-header{
-    text-align: center;
-}
-main{
- margin: 0px; 
+    background-color:#F5F5F5;
+    color:#F5F5F5;
 }
 
-.navbar ul{
+header {
+    text-align: center;
+}
+
+main {
+    margin: 0px;
+}
+
+.navbar ul {
     list-style-type: none;
-    background-image: linear-gradient(rgba(255, 196, 0, 0.203),rgb(26, 189, 167, 0.521));   
+    background-image: linear-gradient(rgba(255, 196, 0, 0.203), rgb(26, 189, 167, 0.521));
     margin: 0px;
     padding: 10px;
     overflow: hidden;
 }
-.navbar a{
+
+.navbar a {
     text-decoration: none;
     font-size: 10px;
     /* color: rgba(216, 77, 26, 0.74); */
@@ -30,63 +36,74 @@ main{
     padding: 10px;
 
 }
-.navbar a:hover{
+
+.navbar a:hover {
     background-color: rgba(26, 189, 167, 0.277);
 }
-.navbar li{
+
+.navbar li {
     float: left;
     margin: 10px;
 }
-.navbar div{
+
+.navbar div {
     text-align: center;
 }
-.container{
-    width: 7000px;
+
+.container {
+    width: 1250px;
     height: 400px;
+    background-color:#DADAE3;
+    background-image: linear-gradient(to right,rgb( 120, 120, 125),rgb(218,218,227));
     border: solid 10px black;
+    margin-top: 4%;
+    margin-left: 9%;
 }
-.dot{
-    width: 80px;
-    height: 40px;
-    background-color: yellow;
-    border-radius: 50%;
-    box-shadow: 5px 10px;
+
+.rect{
+    width: 400px;
+    height: 300px;
+    background:#FFFFFF;
+    border: solid #FFB400 5px;
+    outline: solid #747274 10px;
+    outline-width: 20px;    
+    border-radius: 10px;
 }
-.box{
-    background-color: black;
-    position: absolute 10px 20px;
-    box-shadow: 20px 20px 3px blue;
+.lorem{
+    color: black;
 }
-.boxx{
-    background-color: black;
-    position: absolute 10px 20px;
-    box-shadow: 10px 20px blue;
-}
-img{
+
+img {
     border: solid 10px;
+    width: 400px;
+    height: 300px;
     margin-left: 20px;
     border-color: rgb(12, 130, 247);
     border-radius: 10px;
     border-width: 25px;
     box-shadow: 10px black;
 }
-.lorem{
-    /* margin-left: 1000px; */
+
+.dot {
+    width: 80px;
+    height: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: black 5px 10px;
 }
-
-
 
 /* flex*/
-.container{
-    display: flex;   
-    flex-direction: row;  
-     justify-content: flex-start;
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     /* justify-self: flex-end;   */
-    /* justify-items: flex-end; */
-    /* gap: 20px; */
-    /* align-self: center; */
+    /* justify-items: flex-end; 
+    /*gap: 20px;*/
+    /*align-self: center;*/
 
 }
-.dot{
-    justify-items: flex-end;
+.rect{
+    display: flex   ;
 }
