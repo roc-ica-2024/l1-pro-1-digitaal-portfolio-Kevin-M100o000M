@@ -6,19 +6,20 @@
     <title>Document</title>
     <!-- <?php phpinfo(); ?> -->
 
-</head>
+</head>                                                                 
 <body>
 <?php
 $dev = ":)";
-echo 'hello darkness my friend';
-echo $dev;
+$monet = "ROFL:ROFL:LOL:ROFL:ROFL";
+echo nl2br ("hello darkness my friend" . $dev . "\n" ); 
+echo  $monet;
+echo $dev, $dev, $dev;
 ?><br>
 <?php 
      
-
 
 ?>
 
 </body>
 </html>
-    
+                                                                                                                                                                                        
