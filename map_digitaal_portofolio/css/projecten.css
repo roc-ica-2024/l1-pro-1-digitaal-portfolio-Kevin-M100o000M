@@ -1,37 +1,22 @@
-.grid {
-    margin-top: 20px;
+.container{
+    margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 14px;
-    grid-row-gap: 14px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 25px; 
+    place-items: center;
     /* justify-items: center; */
     align-items: center;
+
 }
-
-/* .item {
-    width: 100px;
-    height: 100px;
-    text-align: center;
-    background-color: rgb(193, 17, 17);
-    border: solid 5px red;
-    border-radius: 10px;
-    padding: 0.5em;
-    float: left;
-    grid-row-start:1 ;
-    grid-row-end:5 ;
-    grid-column-start:1 ;
-    grid-column-end: 3;
-  
-
-} */
-
 .beton {
     list-style-type: none;
+    /* float: left; */
     background-color: rebeccapurple;
     /* margin: 100px 0px 0px 100px; */
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
     border-radius: 20px; ;
     /* grid-row-start:0 ;
     grid-row-end:0;
@@ -41,4 +26,9 @@
      /* align-self: center;
     justify-self: center;  */
     /* place-self: center; */
+}
+.beton {
+    display: flex;
+justify-content: center;  /* Centers horizontally */
+align-items: center;      /* Centers vertically */
 }
