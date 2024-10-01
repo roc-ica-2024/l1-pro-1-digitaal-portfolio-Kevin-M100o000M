@@ -1,55 +1,3 @@
-@font-face {
-    font-family: 'Fire';
-    src: url(../fonts/FireAceFreeTrial-p7D6d.ttf);
-}
-
-body {
-    margin: 0px;
-    background-color:#fbfbfb;
-    color:#F5F5F5;
-}
-
-header {
-    text-align: center;
-}
-
-main {
-    margin: 0px;
-}
-
-.navbar ul {
-    list-style-type: none;
-    background-image: linear-gradient(rgba(255, 196, 0, 0.203), rgb(26, 189, 167, 0.521));
-    margin: 0px;
-    padding: 10px;
-    overflow: hidden;
-}
-
-.navbar a {
-    text-decoration: none;
-    font-size: 10px;
-    /* color: rgba(216, 77, 26, 0.74); */
-    color: rgba(216, 77, 26, 0.74);
-    font-size: larger;
-    font-family: 'Fire';
-    display: block;
-    padding: 10px;
-
-}
-
-.navbar a:hover {
-    background-color: rgba(26, 189, 167, 0.277);
-}
-
-.navbar li {
-    float: left;
-    margin: 10px;
-}
-
-.navbar div {
-    text-align: center;
-}
-
 .container {
     width: 1100px;
     height: 400px;
@@ -57,7 +5,6 @@ main {
     background-image: linear-gradient(to right,rgb( 120, 120, 125),rgb(218,218,227));
     border: solid;
     border-radius:25px;
-    margin-top: 4%;
     margin-left: 15%;
 }
 
@@ -75,6 +22,7 @@ main {
 }
 h1{
     color:black ;
+    font-size: 50px;
 }
 p{
     color: #F2F2F2;
@@ -91,16 +39,6 @@ img {
     background-clip: content-box, border-box;
     border-radius: 50px;
     border-width: 25px;
-}
-
-.dot {
-    width: 105px;
-    height: 45px;
-    background-color: yellow;
-    border: solid 10px;  
-    border-image: linear-gradient(45deg); 
-    border-radius: 50px;
-    box-shadow: black 5px 10px;
 }
 
 /* flex*/
