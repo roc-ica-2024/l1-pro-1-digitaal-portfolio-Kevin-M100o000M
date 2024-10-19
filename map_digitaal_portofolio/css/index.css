@@ -1,11 +1,11 @@
 .container {
     width: 1100px;
     height: 400px;
-    background-color:#DADAE3;
-    background-image: linear-gradient(to right,rgb( 120, 120, 125),rgb(218,218,227));
+    /* background-color:#DADAE3; */
+    background-image: linear-gradient(to right,rgb( 120, 120, 125),(218,218,227));
     border: solid;
     border-radius:25px;
-    margin-left: 15%;
+    margin-left: 10%; 
 }
 
 .rect{
@@ -21,14 +21,17 @@
     text-align: center;
 }
 h1{
-    color:black ;
+  color: black ;
+}
+h2{
+    color: white;
     font-size: 50px;
 }
 p{
     color: #F2F2F2;
     font-size: 150%;
 }
-img {
+.imgik {
     border: solid 10px;
     width: 400px;
     height: 300px;
@@ -46,6 +49,7 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
+    align-self: center;
     justify-content: space-around;
     /* justify-self: flex-end;   */
     /* justify-items: flex-end; 
@@ -53,8 +57,15 @@ img {
     /*align-self: center;*/
 
 }
-.rect{
-    display: flex;
-    /* justify-content: center; 
-    align-items: center;    */
+
+.containerbutton{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.3fr 0.3fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 20px; 
+    place-items: center;
+    justify-items: center;
+    background-color: wheat;
 }

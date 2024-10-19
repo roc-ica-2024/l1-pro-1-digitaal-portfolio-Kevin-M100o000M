@@ -5,7 +5,11 @@
 
 body {
     margin: 0px;
-    background-color:#fbfbfb;
+    background-image: url(../images/code.png);
+    backdrop-filter: blur(1.5px);
+    /* temporary */
+    /* backdrop-filter: invert(80%); */
+    /* backdrop-filter: sepia(90%); */
     color:#F5F5F5;
 }
 
