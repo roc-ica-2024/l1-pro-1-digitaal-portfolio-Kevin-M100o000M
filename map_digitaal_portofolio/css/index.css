@@ -1,3 +1,6 @@
+body{
+    background-color: #262626 !important;
+}
 .container {
     width: 1100px;
     height: 400px;
@@ -61,11 +64,12 @@ p{
 .containerbutton{
     margin-top: 40px;
     display: grid;
+    background-image: linear-gradient(#E4F279,#594F1C);
     grid-template-columns: repeat(2, 0.3fr 0.3fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(6, );
     grid-column-gap: 0px;
     grid-row-gap: 20px; 
+    padding: 10px 10px 10px 0px;
     place-items: center;
     justify-items: center;
-    background-color: wheat;
 }
