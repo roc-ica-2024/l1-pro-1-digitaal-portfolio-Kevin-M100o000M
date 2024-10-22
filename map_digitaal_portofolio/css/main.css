@@ -6,12 +6,12 @@
 body {
     margin: 0px;
      background-image: url(../images/code.png); 
-     background-image: linear-gradient(#E4F279,#262626);
+     background: black;
     /* backdrop-filter: blur(8px); */
     /* temporary */
-    /* backdrop-filter: invert(80%); */
-    /* backdrop-filter: sepia(90%); */
-    color:#F5F5F5;
+    /* backdrop-filter: invert(90%);  */
+    /* backdrop-filter: sepia(10%); */
+    /* color:#F5F5F5; */
 }
 
 header {
@@ -24,7 +24,7 @@ main {
 
 .navbar ul {
     list-style-type: none;
-    background-image: linear-gradient(#395273,#E4F279);
+    /* background-image: linear-gradient(orangered ,whitesmoke); */
     margin: 0px;
     padding: 10px;
     overflow: hidden;
@@ -47,7 +47,7 @@ main {
 }
 
 .navbar li {
-    float: left;
+    float: right;
     margin: 10px;
 }
 
@@ -57,10 +57,11 @@ main {
 .dot {
     width: 105px;
     height: 45px;
+    text-decoration: none; 
     background-color:whitesmoke ;
-    border: solid 10px black ;   
+    border: solid 4px orangered ;   
     border-radius: 50px;
-    box-shadow: white 0px 9px;
+    /* box-shadow: white 0px 9px; */
 }
 .dot:hover {
    text-decoration: none;
