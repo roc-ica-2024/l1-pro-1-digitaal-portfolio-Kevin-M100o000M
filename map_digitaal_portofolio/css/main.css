@@ -64,7 +64,8 @@ main {
     background-color: orangered ;
     border: solid 4px whitesmoke ;   
     border-radius: 1px;
-    box-shadow: white 0px 6px;
+    /* box-shadow: whitesmoke 6px 6px; */
+    box-shadow: whitesmoke 0px 6px;
 }
 .dot:hover {
    text-decoration: none;
