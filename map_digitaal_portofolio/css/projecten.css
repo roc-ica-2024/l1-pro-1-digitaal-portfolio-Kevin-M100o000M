@@ -45,6 +45,9 @@ body{
     background-color: orangered ;
     border: solid 4px whitesmoke ;   
     border-radius: 1px;
+    outline: 4px double red;
+    outline-offset: 0.5px;
+   -moz-outline-radius: 10px ;
     /* box-shadow: whitesmoke 6px 6px; */
     box-shadow: whitesmoke 0px 8px;
     text-align: center;
@@ -77,6 +80,6 @@ p{
     /* outline: 2px solid red; */
     font: 800 20px Arial;
   -webkit-text-fill-color: whitesmoke;
-  -webkit-text-stroke: 1.5px;
+  -webkit-text-stroke: 1.2px;
 
 }

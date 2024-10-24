@@ -34,12 +34,17 @@ main {
     text-decoration: none;
     font-size: 10px;
     /* height: 124px; */
-    color: whitesmoke;
+    color: orangered;
     font-size: larger;
-    font-family: 'Fire';
+    font: 800 20px 'Fire';
+  -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 1.2px;
     display: block;
     padding: 10px;
 
+}
+.navbar a:active{
+    transform: translate(-2px,-2px);
 }
 
 .navbar li {
