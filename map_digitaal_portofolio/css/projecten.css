@@ -73,6 +73,60 @@ body{
     box-shadow: 0px 8px whitesmoke;
     transform: translateY(4px);
 }
+
+.betonspeciaal {
+    list-style-type: none;
+    text-decoration: none;
+    color: whitesmoke;
+    /* float: left; */
+    background-color: whitesmoke;
+    /* margin: 100px 0px 0px 100px; */
+    width: 115px;
+    height: 55px;
+    /* border-radius: 50px; 
+    box-shadow: red 0px 5px;   */
+    background-color: orangered ;
+    border: solid 4px whitesmoke ;   
+    border-radius: 1px;
+    outline: 4px double red;
+    outline-offset: 0.5px;
+   -moz-outline-radius: 10px ;
+    /* box-shadow: whitesmoke 6px 6px; */
+    box-shadow: whitesmoke 0px 8px;
+    text-align: center;
+    /* grid-row-start:0 ;
+    grid-row-end:0;
+    grid-column-start:0;
+    grid-column-end: 0; */
+    /* margin: auto ;  */
+     /* align-self: center;
+    justify-self: center;  */
+    /* place-self: center; */
+    /* font: 800 20px Arial;
+  -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 1.5px; */
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+}
+.betonspeciaal:hover{
+    text-decoration: underline;
+}
+.betonspeciaal:active {
+    box-shadow: 0px 8px whitesmoke;
+    transform: translateY(4px);
+}
+
+.projectenkeuze{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.25fr);
+    place-items: center;
+    /* justify-items: center; */
+    align-items: center;
+
+}
+
 p{ 
     color: red;
     text-align: center;
@@ -80,6 +134,6 @@ p{
     /* outline: 2px solid red; */
     font: 800 20px Arial;
   -webkit-text-fill-color: whitesmoke;
-  -webkit-text-stroke: 1.2px;
+  -webkit-text-stroke: 0.75px;
 
 }
