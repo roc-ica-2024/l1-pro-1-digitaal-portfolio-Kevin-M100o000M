@@ -44,7 +44,7 @@ main {
 
 }
 .navbar a:active{
-    transform: translate(-2px,-2px);
+    transform: translateY(2px);
 }
 
 .navbar li {

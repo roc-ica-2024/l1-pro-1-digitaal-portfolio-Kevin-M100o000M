@@ -25,7 +25,7 @@ input{
 }
 p{
 color: orangered;
-    /* background-color: orangered; */
+    background-color: rgb(37, 36, 36);
     border: 2px solid rgba(255, 255, 255, 0.932);
     border-radius: 10px;
     /* border-radius: 6%; */
