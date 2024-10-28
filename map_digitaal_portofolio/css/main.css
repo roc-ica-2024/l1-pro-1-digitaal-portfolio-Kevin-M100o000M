@@ -38,7 +38,7 @@ main {
     font-size: larger;
     font: 800 20px 'Fire';
   -webkit-text-fill-color: whitesmoke;
-  -webkit-text-stroke: 0.6px;
+  -webkit-text-stroke: 0.95px;
     display: block;
     padding: 10px;
 
