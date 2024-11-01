@@ -93,4 +93,5 @@ font: 800 40px Arial;
 }
 span:hover{
     text-decoration: underline;
+    transition: 2s;
 }

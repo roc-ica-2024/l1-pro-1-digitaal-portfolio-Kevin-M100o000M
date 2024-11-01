@@ -27,7 +27,7 @@ body{
     background-image: linear-gradient(to right,rgb( 120, 120, 125),(218,218,227));
     border: solid orangered;
     border-radius:25px;
-    margin-left: 10%; 
+    margin: 0 auto;
     margin-top: 0px;
 }
 
