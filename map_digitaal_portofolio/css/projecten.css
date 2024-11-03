@@ -12,7 +12,8 @@ body{
     /* justify-items: center; */
     align-items: center;
 
-}.periode-container{
+}
+.periode-container{
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
