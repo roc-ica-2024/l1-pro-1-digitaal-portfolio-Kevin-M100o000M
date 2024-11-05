@@ -14,7 +14,7 @@ body{
 
 }
 .periode-container{
-    /* margin-top: 40px; */
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -135,7 +135,7 @@ body{
 }
 
 p{ 
-    background: -webkit-linear-gradient(#01fe9c, #fb04c5);
+    background: -webkit-linear-gradient(bottom right, #01fe9c, #fb04c5);
     text-align: center;
     /* background: -webkit-linear-gradient(#eee, #333); */
     -webkit-background-clip: text;
@@ -149,5 +149,5 @@ p{
 }
 .per1{
     color: orangered;
-    position: fixed;
+    position: none;
 }

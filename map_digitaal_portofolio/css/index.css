@@ -33,12 +33,12 @@ body{
 
 .rect{
     width: 400px;
-    height: 300px;
+    height: 220px;
     background: black;
     /* border: double 1em transparent ; */
-    border: 10px double whitesmoke;
-    outline: 10px double whitesmoke;
-    outline-offset: 10px;
+    border: 20px double whitesmoke;
+    /* outline: 10px double orangered; */
+    /* outline-offset: 5px; */
     /* background-image: linear-gradient(190deg, grey, black),
                       linear-gradient(to right, purple, orange) ;
     background-origin: border-box;
@@ -50,10 +50,10 @@ h1{
      color: whitesmoke;
     float: left;
     font-size: 90px;
-    text-decoration: underline;
-font: 800 40px Arial;
+    /* text-decoration: underline; */
+    font: 800 35px 'LmMilk';
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px;
+  -webkit-text-stroke: 2.4px;
 }
 h2{
     color: whitesmoke;
@@ -64,31 +64,33 @@ font: 800 40px Arial;
   -webkit-text-stroke: 2px;
 }
 p{
-    /* color: orangered; */
-    background: -webkit-linear-gradient(#01fe9c, #fb04c5);
-    -webkit-background-clip: text;
+    color: whitesmoke;
+    /* background: -webkit-linear-gradient(#01fe9c, #fb04c5); */
+    /* -webkit-background-clip: text; */
     /*font: 150% Arial;
   -webkit-text-fill-color: linear-gradient(#01fe9c, #fb04c5);
   -webkit-text-stroke: 4.5px; */
    font-size: 90px;
-font: 800 150% Arial;
+font: 800 130% 'Monts';
   /* -webkit-text-fill-color: whitesmoke; */
   /* -webkit-text-stroke: 1.75px; */
-  -webkit-text-stroke-color: linear-gradient(#01fe9c, #fb04c5);
+  /* -webkit-text-stroke-color: orangered; */
 }
 .imgik {
     border: solid 10px;
-    width: 400px;
+    width: 300px;
     height: 300px;
-    border: double 1em transparent ;
-    background-image: linear-gradient(45deg, white, white),
-                      linear-gradient(45deg,orangered,black);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+    background-color: black;
+    border: 20px double whitesmoke;
     border-radius: 50px;
-    border-width: 25px;
+    /* border-width: 25px; */
 }
-
+.imgik :hover{
+   border: 100px;
+}
+img :hover{
+    background-image:url(../images/WIN_20240927_12_37_05_Pro.jpg);
+}
 /* flex*/
 .container {
     display: flex;

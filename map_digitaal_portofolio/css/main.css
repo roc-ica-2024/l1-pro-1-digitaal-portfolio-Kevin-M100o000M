@@ -1,8 +1,19 @@
 @font-face {
-    font-family: 'Fire';
-    src: url(../fonts/FireAceFreeTrial-p7D6d.ttf);
+    font-family: 'Monts';
+    src: url(../fonts/static/Montserrat-Bold.ttf);
 }
-
+@font-face {
+    font-family: 'BoldMonts';
+    src: url(../fonts/static/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'LeMilk';
+    src: url(../fonts/lemonmilk/LEMONMILK-Bold.otf);
+}
+@font-face {
+    font-family: 'LmMilk';
+    src: url(../fonts/lemonmilk/LEMONMILK-Medium.otf);
+}
 body {
     margin: 0px;
      background-image: url(../images/code.png); 
@@ -36,9 +47,9 @@ main {
     /* height: 124px; */
     color: orangered;
     font-size: larger;
-    font: 800 20px 'Fire';
+    font: 800 30px 'LmMilk';
   -webkit-text-fill-color: whitesmoke;
-  -webkit-text-stroke: 0.95px;
+  -webkit-text-stroke: 1.5px;
     display: block;
     padding: 10px;
 
@@ -84,14 +95,62 @@ main {
 span{ 
     color: orangered;
     float: left;
-    margin: 10px;
+    /* margin: 10px; */
     font-size: 90px;
-font: 800 40px Arial;
+font: 800 36px 'LeMilk';
   -webkit-text-fill-color: whitesmoke;
-  -webkit-text-stroke: 1.75px;
+  -webkit-text-stroke: 2.75px;
 
 }
 span:hover{
     text-decoration: underline;
     transition: 2s;
+}
+.nav_logo{
+    margin: -2px;
+    float: left;
+}
+.footer ul {
+    list-style-type: none;
+    /* background-image: linear-gradient(orangered ,whitesmoke); */
+    margin: 0px;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    overflow: hidden;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 10px;
+    /* height: 124px; */
+    color: orangered;
+    font-size: larger;
+    font: 800 20px 'LmMilk';
+  -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 1.5px;
+    display: block;
+    padding: 10px;
+}
+.footer a:active{
+    transform: translateY(2px);
+}
+
+.footer li {
+    float: right;
+    /* margin: 10px; */
+}
+.footer li > h2{
+    float: left;
+    /* margin: 10px; */
+}
+.footer li:hover{
+    text-decoration: underline;
+    color: orangered ;
+}
+.footer div {
+    text-align: center;
+}
+.spanklein{
+    font-size: 1.35em;
 }
