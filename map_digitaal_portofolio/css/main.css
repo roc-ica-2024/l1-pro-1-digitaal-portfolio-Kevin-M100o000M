@@ -45,11 +45,11 @@ main {
     text-decoration: none;
     font-size: 10px;
     /* height: 124px; */
-    color: orangered;
+    color: whitesmoke;
     font-size: larger;
     font: 800 30px 'LmMilk';
-  -webkit-text-fill-color: whitesmoke;
-  -webkit-text-stroke: 1.5px;
+  /* -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 1.5px; */
     display: block;
     padding: 10px;
 
@@ -66,10 +66,10 @@ main {
     float: left;
     margin: 10px;
 }
-.navbar li:hover{
+/* .navbar li:hover{
     text-decoration: underline;
     color: orangered ;
-}
+} */
 .navbar div {
     text-align: center;
 }
@@ -93,13 +93,13 @@ main {
     transform: translateY(4px);
 } */
 .spangroot{ 
-    color: orangered;
+    color: whitesmoke;
     float: left;
     /* margin: 10px; */
     font-size: 90px;
 font: 800 36px 'LeMilk';
-  -webkit-text-fill-color: whitesmoke;
-  -webkit-text-stroke: 2.75px;
+  /* -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 2.75px; */
 
 }
 .spangroot :hover{
@@ -124,11 +124,11 @@ font: 800 36px 'LeMilk';
     text-decoration: none;
     font-size: 10px;
     /* height: 124px; */
-    color: orangered;
+    color: whitesmoke;
     font-size: larger;
     font: 800 20px 'LmMilk';
-  -webkit-text-fill-color: whitesmoke;
-  -webkit-text-stroke: 1.5px;
+  /* -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 1.5px; */
     display: block;
     padding: 10px;
 }
@@ -144,10 +144,10 @@ font: 800 36px 'LeMilk';
     float: left;
     /* margin: 10px; */
 }
-.footer li:hover{
+/* .footer li:hover{
     text-decoration: underline;
     color: orangered ;
-}
+} */
 .footer div {
     text-align: center;
 }
