@@ -15,23 +15,80 @@ body{
 }
 .periode-container{
     /* margin-top: 50px; */
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(4, 1fr); */
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 1px;
     grid-row-gap: 20px; 
     place-items: center;
     /* justify-items: center; */
     align-items: center;
-
+    /* display: flex;
+    flex-direction: row;
+    border: solid 10px orangered; */
+}
+.project{
+    /* background-color: orangered; */
+    margin: 80px;
+    margin-top: 0px;
+    text-decoration: none;
+    box-shadow: 0px 16px whitesmoke;
+    border: 5px double whitesmoke;
+     /* outline: 12px double red;
+    outline-offset: 2.5px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+ }
+.project:active {
+    box-shadow: 0px 20px whitesmoke;
+    transform: translateY(4px);
+}.project1{
+    /* background-color: orangered; */
+    margin: 80px;
+    text-decoration: none;
+    box-shadow: 0px 16px whitesmoke;
+    border: 5px double whitesmoke;
+     /* outline: 12px double red;
+    outline-offset: 2.5px; */
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+ }
+.gridtekst{
+    /* background: -webkit-linear-gradient(bottom right, #01fe9c, #fb04c5); */
+    font-family: 'Monts';
+    text-align: center;
+    font: 'Monts';
+    padding: 0.5em;
+    /* background: -webkit-linear-gradient(#eee, #333); */
+    /* -webkit-background-clip: text; */
+    /* -webkit-text-fill-color: transparent; */
+    /* background-color: red; */
+    /* outline: 2px solid red; */
+    /* font: 800 20px Arial; */
+    color: orangered;
+  -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 1.1px;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    font-size: large;
+    place-self: center;
+    place-items: center;
+}
+.hoofdtekst{
+    font-size: x-large;
+    text-align: center;
+    font: 'Monts';
+    color: orangered;
+  -webkit-text-fill-color: whitesmoke;
+  -webkit-text-stroke: 1.65px;
 }
 .projectimg{
     width: 600px;
     border: 2px white solid;
-    margin-top: 40px;
-    margin-left: 50px;
-    margin-right: 30px;
+    margin: 1.2em;
 }
 /* .mdot {
     width: 105px;
@@ -139,20 +196,6 @@ body{
     place-items: center;
     /* justify-items: center; */
     align-items: center;
-
-}
-
-p{ 
-    background: -webkit-linear-gradient(bottom right, #01fe9c, #fb04c5);
-    text-align: center;
-    /* background: -webkit-linear-gradient(#eee, #333); */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* background-color: red; */
-    /* outline: 2px solid red; */
-    /* font: 800 20px Arial; */
-  /* -webkit-text-fill-color: whitesmoke; */
-  /* -webkit-text-stroke: 0.75px; */
 
 }
 .per1{
