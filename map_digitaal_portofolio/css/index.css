@@ -24,17 +24,18 @@ body{
     width: 1100px;
     height: 400px;
     /* background-color:#DADAE3; */
-    background-image: linear-gradient(to right,rgb( 120, 120, 125),(218,218,227));
-    border: solid orangered;
-    border-radius:25px;
+    /* background-image: linear-gradient(to right,rgb( 120, 120, 125),(218,218,227)); */
     margin: 0 auto;
     margin-top: 0px;
 }
-
+.rectc{
+    background-color: rgb(24, 23, 23);
+    border: 15px double whitesmoke;
+    border-radius:25px;
+}
 .rect{
     width: 400px;
     height: 220px;
-    background: black;
     /* border: double 1em transparent ; */
     border: 20px double whitesmoke;
     /* outline: 10px double orangered; */
@@ -52,6 +53,7 @@ h1{
     font-size: 90px;
     /* text-decoration: underline; */
     font: 800 35px 'LmMilk';
+    padding-left: 10%;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2.4px;
 }
@@ -78,9 +80,9 @@ font: 800 130% 'Monts';
 }
 .imgik {
     border: solid 10px;
-    width: 300px;
+    width: 250px;
     height: 300px;
-    background-color: black;
+    background-color: rgb(14, 14, 14);
     border: 20px double whitesmoke;
     border-radius: 50px;
     /* border-width: 25px; */
@@ -98,7 +100,6 @@ img :hover{
     align-items: center;
     align-self: center;
     justify-content: space-around;
-    background-color: rgba(43, 34, 34, 0.884);
     /* justify-self: flex-end;   */
     /* justify-items: flex-end; 
     /*gap: 20px;*/
@@ -109,18 +110,18 @@ img :hover{
 .containerbutton{
     margin-top: 40px;
     margin: 40px;
+    /* float: left; */
     display: grid;
     /* background-image: linear-gradient(#E4F279,#594F1C); */
     grid-template-columns: repeat(2, 0.3fr 0.3fr);
-    grid-template-rows: repeat(6, );
+    /* grid-template-rows: repeat(6,1fr ); */
     grid-column-gap: 0px;
     grid-row-gap: 20px; 
     padding: 10px 10px 10px 0px;
-    place-items: center;
-    justify-items: center;
-    background-color: rgba(43, 34, 34, 0.884);
-    border: 2px solid orangered;
-    border-radius: 25px;
+    place-items: right;
+    justify-items: left;
+    /* border: 2px solid orangered;
+    border-radius: 25px; */
 }
 .projectcontainer{
     display: grid;

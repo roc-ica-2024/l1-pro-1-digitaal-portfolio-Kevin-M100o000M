@@ -49,7 +49,7 @@ body{
     margin-top: 0px;
     text-decoration: none;
     /* box-shadow: 0px 16px whitesmoke; */
-    border: 5px double whitesmoke;
+    border: 5px solid whitesmoke;
      /* outline: 12px double red;
     outline-offset: 2.5px; */
     display: grid;
@@ -57,14 +57,14 @@ body{
     place-items: center;
  }
 .project:active {
-    box-shadow: 0px 20px whitesmoke;
+    /* box-shadow: 0px 20px whitesmoke; */
     transform: translateY(4px);
 }.project1{
     /* background-color: whitesmoke; */
     margin: 80px;
     text-decoration: none;
     /* box-shadow: 0px 16px whitesmoke; */
-    border: 5px double whitesmoke;
+    border: 5px solid whitesmoke;
      /* outline: 12px double red;
     outline-offset: 2.5px; */
     display: grid;
