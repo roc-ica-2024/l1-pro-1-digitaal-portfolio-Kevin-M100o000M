@@ -176,3 +176,30 @@ img :hover{
     transform: translateY(4px);
 }
 
+
+@media only screen and (max-width: 329px){
+    .container{
+    width: 299px;
+    height: 500px;
+    flex-direction: column;
+    }
+    .imgik{
+        width: 12em;
+        height: 12em;
+    }
+    .rect{
+        width: 14em;
+        height: 12em;
+    }
+    .containerbutton{
+    grid-template-rows: repeat(2, 0.3fr 0.3fr);
+    grid-template-columns: repeat(2,9fr);
+    }
+    h1{
+        font-size: 70%;
+  -webkit-text-stroke: 0.8px;
+    }
+    p{
+        font-size: 90%;
+    }
+}
