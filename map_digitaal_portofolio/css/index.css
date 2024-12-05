@@ -177,7 +177,7 @@ img :hover{
 }
 
 
-@media only screen and (max-width: 329px){
+@media only screen and (max-width: 451px){
     .container{
     width: 299px;
     height: 500px;
@@ -197,7 +197,7 @@ img :hover{
     }
     h1{
         font-size: 70%;
-  -webkit-text-stroke: 0.8px;
+  -webkit-text-stroke: 0.6px;
     }
     p{
         font-size: 90%;

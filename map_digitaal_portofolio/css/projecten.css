@@ -197,3 +197,14 @@ img{
     color: whitesmoke;
     position: none;
 }
+@media only screen and (max-width: 451px){
+    .project{
+        flex-direction: column;
+    }
+    img{
+        height: 6em;
+    }
+    .goedimg{
+        height: 10em;
+    }
+}

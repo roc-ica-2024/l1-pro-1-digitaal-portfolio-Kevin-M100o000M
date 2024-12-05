@@ -45,7 +45,7 @@ footer{
     padding-top: 1%;
     margin-top: 3%;
 }
-.navbar ul {
+.navbar ul .headgrid{
     list-style-type: none;
     /* background-image: linear-gradient(orangered ,whitesmoke); */
     margin: 0px;
@@ -214,4 +214,35 @@ font: 800 36px 'LmMilk';
 .spanklein{
     font-size: 1.35em;
    /* font: 800 36px 'LmMilk'; */
+}
+@media only screen and (max-width: 451px){
+    .navbar .headgrid{
+        display: grid;
+        grid-template-columns: repeat(3,0.5fr);
+        place-items: center;
+    }
+.spangroot{
+    font-size: 220%;
+}
+.spangroot :hover{
+    font-size: 280%;
+}
+.navbar li{
+    float: left;
+}
+.active0{
+    font-size: 90%;
+}
+.active0 :hover{
+    font-size: 140%;
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(0,1fr);
+    place-items: center;
+}
+.spanklein{
+    text-align: center;
+}
 }
