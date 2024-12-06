@@ -223,6 +223,8 @@ font: 800 36px 'LmMilk';
     }
 .spangroot{
     font-size: 220%;
+    /* margin-right: 30%; */
+    margin: 0px;
 }
 .spangroot :hover{
     font-size: 280%;
@@ -244,5 +246,6 @@ font: 800 36px 'LmMilk';
 }
 .spanklein{
     text-align: center;
+    float: right;
 }
 }
