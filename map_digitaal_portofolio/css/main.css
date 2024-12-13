@@ -33,7 +33,6 @@ main {
     margin: 0px;
 }
 .headfoot{
-    background-color: rgb(24, 23, 23);
     /* margin: 20px; */
     /* border: 2px solid whitesmoke; */
 }
@@ -58,7 +57,7 @@ footer{
     /* height: 124px; */
     color: whitesmoke;
     font-size: larger;
-    font: 800 30px 'LmMilk';
+    font: 800 160% 'LmMilk';
   /* -webkit-text-fill-color: whitesmoke;
   -webkit-text-stroke: 1.5px; */
     display: block;
@@ -72,7 +71,7 @@ footer{
     /* height: 124px; */
     color: whitesmoke;
     font-size: larger;
-    font: 800 30px 'LmMilk';
+    font: 800 225% 'LmMilk';
   /* -webkit-text-fill-color: whitesmoke;
   -webkit-text-stroke: 1.5px; */
     display: block;
