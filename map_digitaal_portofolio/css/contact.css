@@ -46,9 +46,19 @@ input{
 }
 .itemgrid{
     display:grid;
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1.3fr);
     place-items:start;
+    width:50%;
     }
+.linkcolor{
+	margin:0px;
+	color:whitesmoke;
+}
+.linkimg{
+	width:35%;
+	float:left;
+}
 /* .contactinfo{ */
     /* margin-top: 140px; */
     /* margin-right: 30px; */
