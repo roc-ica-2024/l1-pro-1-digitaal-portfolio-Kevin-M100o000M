@@ -37,7 +37,7 @@ input{
 .item{
     color: whitesmoke;
     font: 800 20px 'LEMONMILK-Bold';
-    width:60%;
+    /*width:10%;*/
     border: 7px double whitesmoke;
     border-radius: 10px;
     text-align: center;
@@ -49,14 +49,21 @@ input{
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1.3fr);
     place-items:start;
-    width:50%;
     }
+.itemcolumn{
+	place-items:end
+}
 .linkcolor{
 	margin:0px;
 	color:whitesmoke;
+	text-decoration: none;
+}
+.linkcolor:hover{
+	text-decoration: underline rgb(243, 67, 67) 4px;
+	transition: 2s;
 }
 .linkimg{
-	width:35%;
+	width:15%;
 	float:left;
 }
 /* .contactinfo{ */
