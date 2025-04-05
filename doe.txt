@@ -1,0 +1,6 @@
+voer hier onder is rommeltje
+
+1 fix Mesh in folder below and place this file to folder below.
+2 make lines on links better.
+3 add js preview to project onhover of projects.
+4 add recent projects below on index.html.
