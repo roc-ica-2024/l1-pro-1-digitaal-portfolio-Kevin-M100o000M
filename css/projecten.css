@@ -32,6 +32,7 @@ body{
 .project{
     /* background-color: whitesmoke; */
     width: 85%;
+    height: 80%;
     /* margin-top: 8%; */
     margin: 2%;
     padding: -10%;
@@ -41,9 +42,16 @@ body{
      /* outline: 12px double red;
     outline-offset: 2.5px; */
     display: flex;
+    /* display: inline-block; */
     flex-basis: content;
     justify-content: space-around;
  }
+
+.project:hover {
+    /* background-image: url('../images/sherm_afdruk_goede_doel.png'); */
+    transition-duration: 10s;
+}
+
 .project:active {
     /* box-shadow: 0px 20px whitesmoke; */
     transform: translateY(4px);
@@ -67,6 +75,11 @@ body{
     flex-direction: column;
     flex-basis: content;
 }
+
+.gridtekst:hover{ 
+    color: black;
+}
+
 .hoofdtekst{
     font-size: x-large;
     text-align: center;
@@ -74,6 +87,11 @@ body{
     color: whitesmoke;
   /* -webkit-text-fill-color: whitesmoke;
   -webkit-text-stroke: 1.65px; */
+}
+
+
+.hoofdtekst:hover{ 
+    color: black;
 }
 
 img{
@@ -196,4 +214,15 @@ img{
 .per1{
     color: whitesmoke;
     position: none;
+}
+@media only screen and (max-width: 451px){
+    .project{
+        flex-direction: column;
+    }
+    img{
+        height: 6em;
+    }
+    .goedimg{
+        height: 10em;
+    }
 }
