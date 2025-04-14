@@ -69,7 +69,7 @@ footer{
     /* font-size: 10px; */
     /* height: 124px; */
     color: whitesmoke;
-    font: 800 220% 'LmMilk';
+    /* font: 800 220% 'LmMilk'; */
   /* -webkit-text-fill-color: whitesmoke;
   -webkit-text-stroke: 1.5px; 
     display: block;
@@ -92,40 +92,55 @@ footer{
 .navbar div {
     text-align: center;
 }
-.active1{
+#active1{
     /* color: rgb(90, 89, 89); */
     /* text-decoration: underline rgb(243, 67, 67) 4px; */
     transition: 1.5s;
 }
-.active1:hover{
+#active1:hover{
     /* color: rgb(90, 89, 89); */
     /* text-decoration: underline rgb(243, 67, 67) 4px; */
+    /* position: relative; */
     transition: 1.5s;
 }
 
-.active1:after {
+#active1:after {
     content: '';
-    width: 50%;
+    position: relative;
+    left: var(--after-left, 50%);
+    width: var(--after-width, 50%);
     height: 4.5px;
     display: block;
     background:rgb(243, 67, 67) 4px;
-    transition: 700ms;
+    transition: var(--transtion, 700ms);
   }
   
-  .active1:hover:after {
-    width: 100%;
-  }
+  /* .active1:hover:after {
+    left: 0%;
+    width: 50%;
+  } */
 
-.active2{
+#active2{
     /* color: rgb(90, 89, 89); */
-    text-decoration: underline rgb(243, 67, 67) 4px;
-    transition: 2s;
+    transition: 1.5s;
 }
-.active2:hover{
-    /* color: rgb(90, 89, 89); */
-    text-decoration: underline rgb(243, 67, 67) 4px;
-    transition: 2s;
-}
+
+#active2:after {
+    content: '';
+    position: relative;
+    left: var(--after-left, 100%);
+    width: var(--after-width, 0%);
+    height: 4.5px;
+    display: block;
+    background:rgb(243, 67, 67) 4px;
+    transition: var(--transtion, 700ms);
+  }
+  
+/* #active2:hover:after {
+    left: 50%;
+    width: 50%;
+  } */
+
 .cv{
     border: 2px solid whitesmoke;
     /* width: 20px; */

@@ -77,7 +77,7 @@ body{
 }
 
 .gridtekst:hover{ 
-    color: black;
+    /* color: black; */
 }
 
 .hoofdtekst{
@@ -91,7 +91,7 @@ body{
 
 
 .hoofdtekst:hover{ 
-    color: black;
+    /* color: black; */
 }
 
 img{
